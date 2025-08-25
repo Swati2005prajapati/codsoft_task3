@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Face Recognition System</h1>
+        <p>Capture · Recognize · Analyze</p>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-card" onclick="location.href='/detection'">
+            <div class="icon-circle">
+                <i class="fas fa-video"></i>
+            </div>
+            <h3>Face Detection</h3>
+            <p>Detect faces in real-time using your camera feed.</p>
+        </div>
+
+        <div class="feature-card" onclick="location.href='/recognition'">
+            <div class="icon-circle">
+                <i class="fas fa-user-check"></i>
+            </div>
+            <h3>Face Recognition</h3>
+            <p>Identify and match faces with stored data.</p>
+        </div>
+
+        <div class="feature-card" onclick="location.href='/analyze'">
+            <div class="icon-circle">
+                <i class="fas fa-chart-pie"></i>
+            </div>
+            <h3>Face Analysis</h3>
+            <p>Analyze emotions, age, and gender of detected faces.</p>
+        </div>
+    </section>
+
+    <!-- Steps Section -->
+    <section class="steps">
+        <h2>How It Works</h2>
+        <div class="step-cards">
+            <!-- Step 1 -->
+            <div class="step-card">
+                <div class="icon-circle">
+                    <i class="fas fa-video"></i>
+                </div>
+                <h4>Face Detection</h4>
+                <ul>
+                    <li>Open Detection mode</li>
+                    <li>Real-time face detection via webcam</li>
+                </ul>
+            </div>
+    
+            <!-- Step 2 -->
+            <div class="step-card">
+                <div class="icon-circle">
+                    <i class="fas fa-user-plus"></i>
+                </div>
+                <h4>Face Recognition</h4>
+                <ul>
+                    <li>Enter name & capture 50 images</li>
+                    <li>Images saved & system learns the face</li>
+                    <li>Live webcam recognition with name display</li>
+                </ul>
+            </div>
+    
+            <!-- Step 3 -->
+            <div class="step-card">
+                <div class="icon-circle">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                <h4>Face Analysis</h4>
+                <ul>
+                    <li>Analyze expressions & emotions</li>
+                    <li>Estimate age of detected faces</li>
+                    <li>View results live in webcam feed</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Advantages Section -->
+    <section class="advantages">
+        <h2>Why Use This System?</h2>
+        <ul>
+            <li><i class="fas fa-check-circle"></i> Real-time face detection and recognition.</li>
+            <li><i class="fas fa-check-circle"></i> Deep learning powered by DeepFace.</li>
+            <li><i class="fas fa-check-circle"></i> Easy to use, no technical knowledge required.</li>
+            <li><i class="fas fa-check-circle"></i> Works directly in your browser with camera access.</li>
+        </ul>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+/* recognition.css - Dark Theme + Blurred Cards */
+
+:root {
+    --bg: #0f1724;
+    --card-bg: rgba(15, 23, 36, 0.85); /* blurred card background */
+    --text: #e6eef8;
+    --muted: #98a0b2;
+    --accent: #5eead4;
+    --accent-dark: #3dd9c4;
+    --border: rgba(255, 255, 255, 0.1);
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: var(--accent);
+    margin-bottom: 30px;
+  }
+  
+  h1 i {
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    background: var(--card-bg);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+  }
+  
+  h3 {
+    color: var(--accent-dark);
+    margin-top: 0;
+  }
+  
+  h3 i {
+    font-size: 1.1em;
+    margin-right: 10px;
+  }
+  
+  /* Person Cards */
+  .known-people-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .person-card {
+    background: rgba(20, 30, 50, 0.7);
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 15px;
+  }
+  
+  .person-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  }
+  
+  .person-card i {
+    font-size: 1.5em;
+    margin-right: 15px;
+    color: var(--accent-dark);
+    background: rgba(0,0,0,0.3);
+    padding: 0.4rem;
+    border-radius: 50%;
+  }
+  
+  .person-card div {
+    flex-grow: 1;
+  }
+  
+  .person-card strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: var(--accent);
+  }
+  
+  .person-card a {
+    color: var(--accent);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .person-card a:hover {
+    color: var(--accent-dark);
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+  }
+  
+  input[type="text"] {
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 30px;
+    flex-grow: 1;
+    font-size: 1em;
+    background: rgba(0,0,0,0.2);
+    color: var(--text);
+  }
+  
+  input[type="text"]::placeholder {
+    color: var(--muted);
+  }
+  
+  button {
+    background: var(--accent-dark);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: var(--accent);
+  }
+  
+  button i {
+    margin-right: 8px;
+  }
+  
+  /* Video Feed */
+  img {
+    width: 100%;
+    max-width: 720px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+  
+  /* Links */
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: var(--accent-dark);
+    text-decoration: underline;
+  }
+  
+  /* No people message */
+  section > p {
+    color: var(--muted);
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Back link */
+  body > p {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  body > p a i {
+    margin-right: 8px;
+  }
+  

@@ -1,0 +1,55 @@
+body {
+    background: #0f1724;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .analyze-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0,0,0,0.4);  /* semi-transparent dark blur */
+    border-radius: 12px;
+    backdrop-filter: blur(10px);  /* glass effect */
+  }
+  
+  h1 {
+    color: #5eead4;
+    margin-bottom: 20px;
+  }
+  
+  h1 i {
+    margin-right: 10px;
+  }
+  
+  .video-feed {
+    width: 100%;
+    max-width: 720px;
+    border-radius: 8px;
+    border: 2px solid #5eead4;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    color: #cbd5e1;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #60a5fa;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #3b82f6;
+  }
+  

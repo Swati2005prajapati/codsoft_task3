@@ -1,0 +1,58 @@
+/* Detection Page Theme (Matches Home Page Look) */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f1724, #1a2235);
+    color: #e6eef8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main container */
+.detection-container {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    width: 80%;
+    max-width: 800px;
+    backdrop-filter: blur(6px);
+}
+
+/* Heading */
+.detection-container h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #5eead4; /* Accent color from home page */
+    letter-spacing: 1px;
+}
+
+/* Camera feed */
+.detection-container img {
+    border-radius: 10px;
+    border: 3px solid #5eead4;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(94, 234, 212, 0.5);
+}
+
+/* Back link */
+.detection-container a {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #5eead4;
+    color: #0f1724;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.detection-container a:hover {
+    background: #3cd1b6;
+}
