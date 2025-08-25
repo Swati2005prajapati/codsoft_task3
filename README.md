@@ -58,7 +58,7 @@ It is a Flask-based application that performs **real-time face detection, recogn
 
 1️⃣ Clone this repo:
 ```bash
-git clone https://github.com/Swati2005prajapati/face_app.git
+git clone https://github.com/Swati2005prajapati/codsoft_task3.git
 cd face_app
 ````
 
@@ -89,18 +89,20 @@ Server will start at:
 
 ---
 
-## 📸 Screenshots
 
-* [Homepage](https://raw.githubusercontent.com/Swati2005prajapati/face_app/main/assets/homepage.png)
-* [Face Detection](https://raw.githubusercontent.com/Swati2005prajapati/face_app/main/assets/face_detection.png)
-* [Face Recognition](https://raw.githubusercontent.com/Swati2005prajapati/face_app/main/assets/face_recognization.png)
-* [Face Analysis](https://raw.githubusercontent.com/Swati2005prajapati/face_app/main/assets/face_analysis.png)
+
+## 📸 Screenshots  
+
+- [Homepage](https://raw.githubusercontent.com/Swati2005prajapati/codsoft_task3/main/assets/homepage.png)  
+- [Face Detection](https://raw.githubusercontent.com/Swati2005prajapati/codsoft_task3/main/assets/face_detection.png)  
+- [Face Recognition](https://raw.githubusercontent.com/Swati2005prajapati/codsoft_task3/main/assets/face_recognization.png)  
+- [Face Analysis](https://raw.githubusercontent.com/Swati2005prajapati/codsoft_task3/main/assets/face_Analysis.png)  
 
 ---
 
 ## 🔗 Links
 
-* 📂 GitHub Repo: [face\_app](https://github.com/Swati2005prajapati/face_app)
+* 📂 GitHub Repo: [face\_app](https://github.com/Swati2005prajapati/codesoft_task3)
 * 🎥 LinkedIn Post: (link to task completion video)
 * 🌐 CodSoft: [CodSoft Internship](https://codsoft.in)
 
@@ -110,6 +112,7 @@ Server will start at:
 
 Thanks to **CodSoft** for this internship opportunity.
 This project improved my skills in **Flask, Computer Vision, and AI-based face analysis**.
+
 
 
 Tamne hu aama ek **Play Online / Demo link (GitHub Pages style)** add karu ke face app ma flask chhe etle skip kariye?
