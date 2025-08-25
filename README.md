@@ -1,40 +1,68 @@
-Arre 😅 samajhayi gayu Swati!
-Pehla hu **codsoft\_task2 (captioning app)** mate README aapi di.
-Tamne **Face Detection + Recognition + Analysis project** mate joiye chhe (je ma homepage, detection, recognition ane analysis che).
+# 👀 Face Detection, Recognition & Analysis Web App
 
-Chalo, tamara **face\_app** project mate final clickable-links-only README.md aapu:
-
----
-
-````markdown
-# 🖼️ Face Detection, Recognition & Analysis  
-
-This is a Flask + OpenCV based web app that can:  
-✔️ Detect faces in real-time  
-✔️ Recognize known faces with ID & Name  
-✔️ Analyze human faces for **Age & Expressions**  
-✔️ Show results directly on the live camera feed  
+## 📌 Overview
+This project is part of my **CodSoft AI/ML Internship (August 2025)**.  
+It is a Flask-based application that performs **real-time face detection, recognition, and analysis (age + expression prediction)**.
 
 ---
 
 ## ⚡ Features
-- Real-time **Face Detection** (bounding boxes)  
-- **Face Recognition** with ID, Name & Confidence Score  
-- **Age & Expression Analysis** (happy, sad, neutral, etc.)  
-- Model training using captured dataset  
-- User-friendly **Flask web interface**  
+- 👀 Face Detection (real-time using OpenCV)  
+- 🧑‍🤝‍🧑 Face Recognition (identify known faces)  
+- 📊 Face Analysis (predict **Age** & **Expression**)  
+- 🎥 Live Camera Feed with bounding boxes  
+- 📂 Store & manage face datasets  
+- 🖥️ User-friendly web interface with Flask  
 
 ---
 
-## 🚀 How to Run Locally
+## 🛠️ Tech Stack
+- **Frontend**: HTML5, CSS3, JavaScript  
+- **Backend**: Flask (Python)  
+- **Libraries**: OpenCV, TensorFlow/Keras, NumPy, dlib  
+- **Database/Storage**: Local file system for datasets  
 
-1️⃣ Clone this repository  
+---
+
+## 📂 Project Structure
+```
+
+├── app.py                 # Flask main application
+├── templates/             # HTML templates (home, detection, recognition, analysis)
+│   ├── home.html
+│   ├── detection.html
+│   ├── recognization.html
+│   ├── analysis.html
+├── static/                # CSS & JS
+│   ├── css/
+│   │   └── style.css
+│   ├── uploads/           # Uploaded images
+├── data/                  # Face datasets
+│   ├── known\_face/
+│   ├── unknown\_face/
+├── trainer/               # Model training data
+│   ├── labels.json
+│   ├── trainer.yml
+├── assets/                # Screenshots
+│   ├── homepage.png
+│   ├── face\_detection.png
+│   ├── face\_recognization.png
+│   ├── face\_analysis.png
+└── README.md
+
+````
+
+---
+
+## 🚀 How to Run
+
+1️⃣ Clone this repo:
 ```bash
 git clone https://github.com/Swati2005prajapati/face_app.git
 cd face_app
 ````
 
-2️⃣ Create virtual environment (recommended)
+2️⃣ Create virtual environment:
 
 ```bash
 python -m venv venv
@@ -44,13 +72,13 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-3️⃣ Install dependencies
+3️⃣ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4️⃣ Run the app
+4️⃣ Run the app:
 
 ```bash
 python app.py
@@ -63,39 +91,26 @@ Server will start at:
 
 ## 📸 Screenshots
 
-* 👉 [View Homepage Screenshot](https://raw.githubusercontent.com/Swati2005prajapati/face_app/main/assets/homepage.png)
-* 👉 [View Face Detection Screenshot](https://raw.githubusercontent.com/Swati2005prajapati/face_app/main/assets/face_detection.png)
-* 👉 [View Face Recognition Screenshot](https://raw.githubusercontent.com/Swati2005prajapati/face_app/main/assets/face_recognization.png)
-* 👉 [View Face Analysis Screenshot](https://raw.githubusercontent.com/Swati2005prajapati/face_app/main/assets/face_Analysis.png)
+* [Homepage](https://raw.githubusercontent.com/Swati2005prajapati/face_app/main/assets/homepage.png)
+* [Face Detection](https://raw.githubusercontent.com/Swati2005prajapati/face_app/main/assets/face_detection.png)
+* [Face Recognition](https://raw.githubusercontent.com/Swati2005prajapati/face_app/main/assets/face_recognization.png)
+* [Face Analysis](https://raw.githubusercontent.com/Swati2005prajapati/face_app/main/assets/face_analysis.png)
 
 ---
 
 ## 🔗 Links
 
 * 📂 GitHub Repo: [face\_app](https://github.com/Swati2005prajapati/face_app)
-* 🎥 LinkedIn Post: (link to your task completion video)
+* 🎥 LinkedIn Post: (link to task completion video)
+* 🌐 CodSoft: [CodSoft Internship](https://codsoft.in)
 
 ---
 
-## 💡 Tech Stack
+## 🙏 Acknowledgements
 
-* **Frontend**: HTML, CSS, JavaScript
-* **Backend**: Flask (Python)
-* **ML**: OpenCV (Haar Cascade, LBPH Recognizer)
-* **Extras**: Age & Emotion Analysis models
+Thanks to **CodSoft** for this internship opportunity.
+This project improved my skills in **Flask, Computer Vision, and AI-based face analysis**.
 
----
 
-## 👩‍💻 Author
-
-Made with ❤️ by **Swati Prajapati**
-
-```
-
----
-
-✅ Aa version ma **screenshots clickable links** j chhe (no inline preview).  
-Tame assets folder ma screenshot filenames (`homepage.png`, `face_detection.png`, etc.) already muki chho to aa link proper chalva joiye.  
-
-👉 Swati, shu hu tamne aa `README.md` ready-to-upload file tarike banavi dau?
+Tamne hu aama ek **Play Online / Demo link (GitHub Pages style)** add karu ke face app ma flask chhe etle skip kariye?
 ```
