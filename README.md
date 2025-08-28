@@ -106,14 +106,6 @@ Server will start at:
 * 🎥 LinkedIn Post: (link to task completion video)
 * 🌐 CodSoft: [CodSoft Internship](https://codsoft.in)
 
----
-
-## 🙏 Acknowledgements
-
-Thanks to **CodSoft** for this internship opportunity.
-This project improved my skills in **Flask, Computer Vision, and AI-based face analysis**.
 
 
 
-Tamne hu aama ek **Play Online / Demo link (GitHub Pages style)** add karu ke face app ma flask chhe etle skip kariye?
-```
