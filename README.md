@@ -1,7 +1,7 @@
 # 👀 Face Detection, Recognition & Analysis Web App
 
 ## 📌 Overview
-This project is part of my **CodSoft AI/ML Internship (August 2025)**.  
+This project is part of my **CodSoft AI Internship (August 2025)**.  
 It is a Flask-based application that performs **real-time face detection, recognition, and analysis (age + expression prediction)**.
 
 ---
@@ -106,6 +106,7 @@ Server will start at:
 * 🌐 CodSoft: [CodSoft Internship](https://codsoft.in)
 - 👩‍💻 [LinkedIn Profile](https://www.linkedin.com/in/swati-prajapati-b723b7368)
 - 📂 [GitHub Profile](https://github.com/Swati2005prajapati)
+
 
 
 
