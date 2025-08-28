@@ -102,9 +102,11 @@ Server will start at:
 
 ## 🔗 Links
 
-* 📂 GitHub Repo: [face\_app](https://github.com/Swati2005prajapati/codesoft_task3)
 * 🎥 LinkedIn Post: (link to task completion video)
 * 🌐 CodSoft: [CodSoft Internship](https://codsoft.in)
+- 👩‍💻 [LinkedIn Profile](https://www.linkedin.com/in/swati-prajapati-b723b7368)
+- 📂 [GitHub Profile](https://github.com/Swati2005prajapati)
+
 
 
 
