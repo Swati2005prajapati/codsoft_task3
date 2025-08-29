@@ -102,10 +102,11 @@ Server will start at:
 
 ## 🔗 Links
 
-* 🎥 LinkedIn Post: (link to task completion video)
+* 🎥 LinkedIn Post: [watch](https://www.linkedin.com/posts/swati-prajapati-b723b7368_codsoft-internship-ai-activity-7367163291657277440-6Vw8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFsvFMYB-i94v-AX-MHmzi4zE9B3jE4I-jg)
 * 🌐 CodSoft: [CodSoft Internship](https://codsoft.in)
 - 👩‍💻 [LinkedIn Profile](https://www.linkedin.com/in/swati-prajapati-b723b7368)
 - 📂 [GitHub Profile](https://github.com/Swati2005prajapati)
+
 
 
 
